@@ -491,6 +491,14 @@ h3 {
 /* ========================================
    PARTNERS MARQUEE SECTION
    ======================================== */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: #989898;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
 
 .partners {
     padding: var(--spacing-xxl) 0;
@@ -1009,10 +1017,13 @@ footer svg {
 
     .footer-logo {
         margin-right: 0;
+        padding: 35px 0px;
+        width: 100%;
     }
 
     .social {
         gap: 0;
+        flex-wrap: wrap;
     }
 
     .footer-logo img {
